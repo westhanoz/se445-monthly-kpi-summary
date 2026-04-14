@@ -1,0 +1,37 @@
+{
+  "project_name": "se445-monthly-kpi-summary",
+  "workflow_engine": "Python/Antigravity",
+  "steps": [
+    {
+      "id": "node_1",
+      "name": "Schedule Trigger",
+      "type": "cron",
+      "schedule": "0 0 1 * *"
+    },
+    {
+      "id": "node_2",
+      "name": "Google Sheets Read",
+      "type": "external_api",
+      "source_url": "https://docs.google.com/spreadsheets/d/1hUAB_xPaccYO4RACQ1IVbe_Mk8hUi-GVGGfzB-Gsmlg/export?format=csv"
+    },
+    {
+      "id": "node_3",
+      "name": "Process Data",
+      "type": "logic",
+      "action": "Format tabular data to JSON"
+    },
+    {
+      "id": "node_4",
+      "name": "AI Summarize",
+      "type": "llm",
+      "provider": "Gemini",
+      "model": "gemini-1.5-flash"
+    },
+    {
+      "id": "node_5",
+      "name": "Email Client",
+      "type": "notification",
+      "protocol": "SMTP_TLS"
+    }
+  ]
+}
