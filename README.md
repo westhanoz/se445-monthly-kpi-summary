@@ -1,6 +1,6 @@
 # SE445 - Monthly KPI Summary Pipeline
 
-This repository contains the logic for **HW1: Custom Automated KPI Reporting Workflow** built using pure Python to emulate workflow nodes without relying on 3rd party visual builders like n8n. 
+This repository contains the logic for **HW1: Custom Automated KPI Reporting Workflow** and **HW2: Raw Data Export**, built using pure Python to emulate workflow nodes without relying on 3rd party visual builders like n8n. 
 
 ## 🚀 Workflow Architecture
 
@@ -38,4 +38,10 @@ RECIPIENT_EMAIL = 'RECIPIENT_EMAIL@gmail.com'
 Simply run the logic payload through the terminal:
 ```bash
 python main_logic.py
+```
+
+### For HW2 (Raw Data Export):
+Run the standalone data export pipeline:
+```bash
+python hw2_raw_data_export.py
 ```
