@@ -21,7 +21,7 @@ GEMINI_API_KEY = 'AIzaSyCH87AO8GThMFqF_L50GXwrGVTIv13Oryc'
 
 # Gmail Setup
 GMAIL_ADDRESS = 'emirbatuhanozturk@gmail.com'
-GMAIL_APP_PASSWORD = 'amdw zzez crtm fjrp' # Needs to be an App Password (16-chars), not your regular password!
+GMAIL_APP_PASSWORD = 'ahcg dyri ixlx aenm' # Needs to be an App Password (16-chars), not your regular password!
 RECIPIENT_EMAIL = 'emirbatuhanozturk@gmail.com'
 # -----------------------------------------------
 

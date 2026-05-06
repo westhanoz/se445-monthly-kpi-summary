@@ -18,7 +18,7 @@ GOOGLE_SHEET_ID = '1hUAB_xPaccYO4RACQ1IVbe_Mk8hUi-GVGGfzB-Gsmlg'
 # Gmail / SMTP Server Configuration
 # We use an App Password instead of a regular password for security reasons (required by Google SMTP)
 GMAIL_ADDRESS = 'emirbatuhanozturk@gmail.com'
-GMAIL_APP_PASSWORD = 'amdw zzez crtm fjrp'
+GMAIL_APP_PASSWORD = 'ahcg dyri ixlx aenm'
 RECIPIENT_EMAIL = 'emirbatuhanozturk@gmail.com'
 # -------------------------------
 

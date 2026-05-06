@@ -1,6 +1,6 @@
 # SE445 - Monthly KPI Summary Pipeline
 
-This repository contains the logic for **HW1: Custom Automated KPI Reporting Workflow** and **HW2: Raw Data Export**, built using pure Python to emulate workflow nodes without relying on 3rd party visual builders like n8n. 
+This repository contains the logic for **HW1: Custom Automated KPI Reporting Workflow**, **HW2: Raw Data Export**, and the **HW3/Final Project: AI Analyst Full Workflow**. Built using pure Python to emulate workflow nodes without relying on 3rd party visual builders like n8n. 
 
 ## 🚀 Workflow Architecture
 
@@ -44,4 +44,10 @@ python main_logic.py
 Run the standalone data export pipeline:
 ```bash
 python hw2_raw_data_export.py
+```
+
+### For HW3 & Final Project (Full AI Analyst Workflow):
+Run the advanced pipeline with Delta calculations and Persona tuning:
+```bash
+python hw3_final_workflow.py
 ```
